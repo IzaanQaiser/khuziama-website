@@ -8,7 +8,7 @@ export default function Header() {
 
   const navItems = [
     { name: 'Home', href: '/' },
-    { name: 'About Me', href: '/about' },
+    { name: 'Experience', href: '#experience' },
     { name: 'Projects', href: '/projects' },
   ]
 
@@ -16,9 +16,14 @@ export default function Header() {
     <header className="w-full px-6 py-4 fixed top-0 left-0 right-0 z-50 bg-cappuccino/95 backdrop-blur-sm">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         {/* Logo */}
-        <Link href="/" className="text-dark-green font-bold text-xl">
+        <a 
+          href="https://www.linkedin.com/in/mirza-mughal/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-dark-green font-bold text-xl hover:scale-105 transition-transform duration-200"
+        >
           MIRZA MUGHAL
-        </Link>
+        </a>
 
         {/* Navigation */}
         <nav className="flex space-x-8">

@@ -35,14 +35,20 @@ export default function Home() {
         <div className="max-w-6xl mx-auto flex items-center gap-12">
           {/* Profile Image */}
           <div className="flex-shrink-0 h-full">
-            <Image
-              src="/logos/mirza.jpg"
-              alt="Mirza Mughal"
-              width={300}
-              height={400}
-              className="rounded-lg shadow-lg object-cover h-full w-auto"
-              unoptimized
-            />
+            <a 
+              href="https://www.linkedin.com/in/mirza-mughal/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/logos/mirza.jpg"
+                alt="Mirza Mughal"
+                width={300}
+                height={400}
+                className="rounded-lg shadow-lg object-cover h-full w-auto hover:scale-105 transition-transform duration-200"
+                unoptimized
+              />
+            </a>
           </div>
           
           {/* Text Content */}
@@ -71,7 +77,7 @@ export default function Home() {
 
       {/* Work Experience Section */}
       <div className="max-w-6xl mx-auto px-6 py-12">
-        <section className="mb-16">
+        <section id="experience" className="mb-16">
           <h2 className="text-4xl font-bold text-dark-green mb-8 text-center">Work Experience</h2>
           
           <div className="flex justify-center">
