@@ -13,7 +13,7 @@ export default function Header() {
   ]
 
   return (
-    <header className="w-full px-6 py-4">
+    <header className="w-full px-6 py-4 sticky top-0 z-50 bg-cappuccino/95 backdrop-blur-sm">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-3">

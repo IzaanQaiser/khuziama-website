@@ -30,8 +30,8 @@ export default function Home() {
 
   return (
     <div>
-      {/* Hero Section - Full Screen Height minus Navbar */}
-      <div className="h-[calc(100vh-80px)] flex items-center justify-center px-6">
+      {/* Hero Section - Full Screen Height */}
+      <div className="h-screen flex items-center justify-center px-6">
         <div className="max-w-6xl mx-auto flex items-center gap-12">
           {/* Profile Image */}
           <div className="flex-shrink-0 h-full">
@@ -69,16 +69,8 @@ export default function Home() {
         </div>
       </div>
 
-      {/* About Me Section */}
+      {/* Work Experience Section */}
       <div className="max-w-6xl mx-auto px-6 py-12">
-        <section className="mb-16">
-          <h2 className="text-4xl font-bold text-dark-green mb-6">About Me.</h2>
-          <p className="text-dark-green leading-relaxed">
-            This is your About section. Every website has a story and users want to hear yours. This is a great opportunity to give a full background on who you are and what your site has to offer. Double click on the text box to start editing your content and make sure to add all the relevant details you want to share with site visitors.
-          </p>
-        </section>
-
-        {/* Work Experience Section */}
         <section className="mb-16">
           <h2 className="text-4xl font-bold text-dark-green mb-8 text-center">Work Experience</h2>
           
