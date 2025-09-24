@@ -65,10 +65,10 @@ export default function Home() {
             
             <div className="space-y-6 text-dark-green leading-relaxed">
               <p className="text-lg">
-                Hello! I'm Mirza, currently a 3rd year Mechanical Engineering student at the University of Waterloo.
+                Hello! I&apos;m Mirza, currently a 3rd year Mechanical Engineering student at the University of Waterloo.
               </p>
               <p className="text-lg">
-                I'm very passionate about mechanical design and it's integration with electronics and software. As demonstrated throughout my previous internship experiences, personal projects, and student design team projects, I am well-versed in key mechanical design skills and look forward to bringing them and gaining more skills at any organizations I work!
+                I&apos;m very passionate about mechanical design and it&apos;s integration with electronics and software. As demonstrated throughout my previous internship experiences, personal projects, and student design team projects, I am well-versed in key mechanical design skills and look forward to bringing them and gaining more skills at any organizations I work!
               </p>
             </div>
           </div>
@@ -77,7 +77,7 @@ export default function Home() {
 
       {/* Work Experience Section */}
       <div className="max-w-6xl mx-auto px-6 py-12">
-        <section id="experience" className="mb-16">
+        <section id="experience" className="mb-16 pt-20">
           <h2 className="text-4xl font-bold text-dark-green mb-8 text-center">Work Experience</h2>
           
           <div className="flex justify-center">
@@ -157,6 +157,54 @@ export default function Home() {
             </div>
           </div>
         </section>
+      </div>
+
+      {/* Project Section - Full Screen Height */}
+      <div id="projects" className="h-screen flex items-center justify-center px-6 pt-20">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-4xl font-bold text-dark-green mb-12 text-center">Projects</h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Project 1 */}
+            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
+              <h3 className="text-xl font-semibold text-dark-green mb-3">Project Title 1</h3>
+              <p className="text-dark-green/70 mb-4">
+                Brief description of your project. Include key technologies used and what problem it solves.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                <span className="px-3 py-1 bg-dark-green/10 text-dark-green text-sm rounded-full">Technology 1</span>
+                <span className="px-3 py-1 bg-dark-green/10 text-dark-green text-sm rounded-full">Technology 2</span>
+                <span className="px-3 py-1 bg-dark-green/10 text-dark-green text-sm rounded-full">Technology 3</span>
+              </div>
+            </div>
+
+            {/* Project 2 */}
+            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
+              <h3 className="text-xl font-semibold text-dark-green mb-3">Project Title 2</h3>
+              <p className="text-dark-green/70 mb-4">
+                Brief description of your project. Include key technologies used and what problem it solves.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                <span className="px-3 py-1 bg-dark-green/10 text-dark-green text-sm rounded-full">Technology 1</span>
+                <span className="px-3 py-1 bg-dark-green/10 text-dark-green text-sm rounded-full">Technology 2</span>
+                <span className="px-3 py-1 bg-dark-green/10 text-dark-green text-sm rounded-full">Technology 3</span>
+              </div>
+            </div>
+
+            {/* Project 3 */}
+            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
+              <h3 className="text-xl font-semibold text-dark-green mb-3">Project Title 3</h3>
+              <p className="text-dark-green/70 mb-4">
+                Brief description of your project. Include key technologies used and what problem it solves.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                <span className="px-3 py-1 bg-dark-green/10 text-dark-green text-sm rounded-full">Technology 1</span>
+                <span className="px-3 py-1 bg-dark-green/10 text-dark-green text-sm rounded-full">Technology 2</span>
+                <span className="px-3 py-1 bg-dark-green/10 text-dark-green text-sm rounded-full">Technology 3</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
