@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'cappuccino': '#D2B48C',
+        'cappuccino': '#F7F3F0',
         'muted-purple': '#8B7D9A',
         'dark-green': '#2D5016',
       },
