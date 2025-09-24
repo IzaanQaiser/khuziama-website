@@ -159,15 +159,15 @@ export default function Home() {
         </section>
       </div>
 
-      {/* Project Section - Taller than Screen Height */}
-      <div id="projects" className="min-h-screen flex items-center justify-center px-6 pt-24 pb-12">
+      {/* Project Section - Extra Tall */}
+      <div id="projects" className="min-h-[120vh] flex items-center justify-center px-6 pt-24 pb-20">
         <div className="max-w-7xl mx-auto w-full">
-          <h2 className="text-4xl font-bold text-dark-green mb-12 text-center">Projects</h2>
+          <h2 className="text-4xl font-bold text-dark-green mb-16 text-center">Projects</h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
             {/* Project 1 */}
-            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
-              <div className="h-40 bg-gray-200 rounded-lg mb-4 flex items-center justify-center">
+            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-10 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
+              <div className="h-48 bg-gray-200 rounded-lg mb-6 flex items-center justify-center">
                 <span className="text-gray-500 text-sm">Project Image</span>
               </div>
               <h3 className="text-lg font-semibold text-dark-green mb-2">Power Bank Inverter</h3>
@@ -177,8 +177,8 @@ export default function Home() {
             </div>
 
             {/* Project 2 */}
-            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
-              <div className="h-40 bg-gray-200 rounded-lg mb-4 flex items-center justify-center">
+            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-10 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
+              <div className="h-48 bg-gray-200 rounded-lg mb-6 flex items-center justify-center">
                 <span className="text-gray-500 text-sm">Project Image</span>
               </div>
               <h3 className="text-lg font-semibold text-dark-green mb-2">Project 2</h3>
@@ -188,8 +188,8 @@ export default function Home() {
             </div>
 
             {/* Project 3 */}
-            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
-              <div className="h-40 bg-gray-200 rounded-lg mb-4 flex items-center justify-center">
+            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-10 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
+              <div className="h-48 bg-gray-200 rounded-lg mb-6 flex items-center justify-center">
                 <span className="text-gray-500 text-sm">Project Image</span>
               </div>
               <h3 className="text-lg font-semibold text-dark-green mb-2">Project 3</h3>
@@ -199,8 +199,8 @@ export default function Home() {
             </div>
 
             {/* Project 4 */}
-            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
-              <div className="h-40 bg-gray-200 rounded-lg mb-4 flex items-center justify-center">
+            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-10 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
+              <div className="h-48 bg-gray-200 rounded-lg mb-6 flex items-center justify-center">
                 <span className="text-gray-500 text-sm">Project Image</span>
               </div>
               <h3 className="text-lg font-semibold text-dark-green mb-2">Project 4</h3>
@@ -210,8 +210,8 @@ export default function Home() {
             </div>
 
             {/* Project 5 */}
-            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
-              <div className="h-40 bg-gray-200 rounded-lg mb-4 flex items-center justify-center">
+            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-10 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
+              <div className="h-48 bg-gray-200 rounded-lg mb-6 flex items-center justify-center">
                 <span className="text-gray-500 text-sm">Project Image</span>
               </div>
               <h3 className="text-lg font-semibold text-dark-green mb-2">Project 5</h3>
@@ -221,8 +221,8 @@ export default function Home() {
             </div>
 
             {/* Project 6 */}
-            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
-              <div className="h-40 bg-gray-200 rounded-lg mb-4 flex items-center justify-center">
+            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-10 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
+              <div className="h-48 bg-gray-200 rounded-lg mb-6 flex items-center justify-center">
                 <span className="text-gray-500 text-sm">Project Image</span>
               </div>
               <h3 className="text-lg font-semibold text-dark-green mb-2">Project 6</h3>
@@ -232,8 +232,8 @@ export default function Home() {
             </div>
 
             {/* Project 7 */}
-            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
-              <div className="h-40 bg-gray-200 rounded-lg mb-4 flex items-center justify-center">
+            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-10 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
+              <div className="h-48 bg-gray-200 rounded-lg mb-6 flex items-center justify-center">
                 <span className="text-gray-500 text-sm">Project Image</span>
               </div>
               <h3 className="text-lg font-semibold text-dark-green mb-2">Project 7</h3>
@@ -243,8 +243,8 @@ export default function Home() {
             </div>
 
             {/* Project 8 */}
-            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
-              <div className="h-40 bg-gray-200 rounded-lg mb-4 flex items-center justify-center">
+            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-10 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
+              <div className="h-48 bg-gray-200 rounded-lg mb-6 flex items-center justify-center">
                 <span className="text-gray-500 text-sm">Project Image</span>
               </div>
               <h3 className="text-lg font-semibold text-dark-green mb-2">Project 8</h3>
@@ -254,8 +254,8 @@ export default function Home() {
             </div>
 
             {/* Project 9 */}
-            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
-              <div className="h-40 bg-gray-200 rounded-lg mb-4 flex items-center justify-center">
+            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-10 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
+              <div className="h-48 bg-gray-200 rounded-lg mb-6 flex items-center justify-center">
                 <span className="text-gray-500 text-sm">Project Image</span>
               </div>
               <h3 className="text-lg font-semibold text-dark-green mb-2">Project 9</h3>
