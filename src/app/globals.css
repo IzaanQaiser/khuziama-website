@@ -5,3 +5,17 @@ body {
   color: #2D5016;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
 }
+
+/* Hide Next.js development overlay */
+[data-nextjs-dialog-overlay] {
+  display: none !important;
+}
+
+[data-nextjs-dialog] {
+  display: none !important;
+}
+
+/* Hide the Next.js indicator */
+[data-nextjs-toast] {
+  display: none !important;
+}

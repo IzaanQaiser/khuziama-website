@@ -12,6 +12,12 @@ const nextConfig: NextConfig = {
   httpAgentOptions: {
     keepAlive: true,
   },
+  devIndicators: {
+    buildActivity: false,
+  },
+  experimental: {
+    reactCompiler: false,
+  },
 };
 
 export default nextConfig;
