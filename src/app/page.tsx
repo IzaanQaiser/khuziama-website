@@ -77,7 +77,7 @@ export default function Home() {
 
       {/* Work Experience Section */}
       <div className="max-w-6xl mx-auto px-6 py-12">
-        <section id="experience" className="mb-16 pt-20">
+        <section id="experience" className="mb-16 pt-24">
           <h2 className="text-4xl font-bold text-dark-green mb-8 text-center">Work Experience</h2>
           
           <div className="flex justify-center">
@@ -159,49 +159,109 @@ export default function Home() {
         </section>
       </div>
 
-      {/* Project Section - Full Screen Height */}
-      <div id="projects" className="h-screen flex items-center justify-center px-6 pt-20">
-        <div className="max-w-6xl mx-auto">
+      {/* Project Section - Taller than Screen Height */}
+      <div id="projects" className="min-h-screen flex items-center justify-center px-6 pt-24 pb-12">
+        <div className="max-w-7xl mx-auto w-full">
           <h2 className="text-4xl font-bold text-dark-green mb-12 text-center">Projects</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Project 1 */}
-            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
-              <h3 className="text-xl font-semibold text-dark-green mb-3">Project Title 1</h3>
-              <p className="text-dark-green/70 mb-4">
-                Brief description of your project. Include key technologies used and what problem it solves.
-              </p>
-              <div className="flex flex-wrap gap-2">
-                <span className="px-3 py-1 bg-dark-green/10 text-dark-green text-sm rounded-full">Technology 1</span>
-                <span className="px-3 py-1 bg-dark-green/10 text-dark-green text-sm rounded-full">Technology 2</span>
-                <span className="px-3 py-1 bg-dark-green/10 text-dark-green text-sm rounded-full">Technology 3</span>
+            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
+              <div className="h-40 bg-gray-200 rounded-lg mb-4 flex items-center justify-center">
+                <span className="text-gray-500 text-sm">Project Image</span>
               </div>
+              <h3 className="text-lg font-semibold text-dark-green mb-2">Power Bank Inverter</h3>
+              <p className="text-dark-green/70 text-sm">
+                A custom power bank inverter project showcasing mechanical design and electronics integration.
+              </p>
             </div>
 
             {/* Project 2 */}
-            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
-              <h3 className="text-xl font-semibold text-dark-green mb-3">Project Title 2</h3>
-              <p className="text-dark-green/70 mb-4">
-                Brief description of your project. Include key technologies used and what problem it solves.
-              </p>
-              <div className="flex flex-wrap gap-2">
-                <span className="px-3 py-1 bg-dark-green/10 text-dark-green text-sm rounded-full">Technology 1</span>
-                <span className="px-3 py-1 bg-dark-green/10 text-dark-green text-sm rounded-full">Technology 2</span>
-                <span className="px-3 py-1 bg-dark-green/10 text-dark-green text-sm rounded-full">Technology 3</span>
+            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
+              <div className="h-40 bg-gray-200 rounded-lg mb-4 flex items-center justify-center">
+                <span className="text-gray-500 text-sm">Project Image</span>
               </div>
+              <h3 className="text-lg font-semibold text-dark-green mb-2">Project 2</h3>
+              <p className="text-dark-green/70 text-sm">
+                Description for project 2
+              </p>
             </div>
 
             {/* Project 3 */}
-            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
-              <h3 className="text-xl font-semibold text-dark-green mb-3">Project Title 3</h3>
-              <p className="text-dark-green/70 mb-4">
-                Brief description of your project. Include key technologies used and what problem it solves.
-              </p>
-              <div className="flex flex-wrap gap-2">
-                <span className="px-3 py-1 bg-dark-green/10 text-dark-green text-sm rounded-full">Technology 1</span>
-                <span className="px-3 py-1 bg-dark-green/10 text-dark-green text-sm rounded-full">Technology 2</span>
-                <span className="px-3 py-1 bg-dark-green/10 text-dark-green text-sm rounded-full">Technology 3</span>
+            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
+              <div className="h-40 bg-gray-200 rounded-lg mb-4 flex items-center justify-center">
+                <span className="text-gray-500 text-sm">Project Image</span>
               </div>
+              <h3 className="text-lg font-semibold text-dark-green mb-2">Project 3</h3>
+              <p className="text-dark-green/70 text-sm">
+                Description for project 3
+              </p>
+            </div>
+
+            {/* Project 4 */}
+            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
+              <div className="h-40 bg-gray-200 rounded-lg mb-4 flex items-center justify-center">
+                <span className="text-gray-500 text-sm">Project Image</span>
+              </div>
+              <h3 className="text-lg font-semibold text-dark-green mb-2">Project 4</h3>
+              <p className="text-dark-green/70 text-sm">
+                Description for project 4
+              </p>
+            </div>
+
+            {/* Project 5 */}
+            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
+              <div className="h-40 bg-gray-200 rounded-lg mb-4 flex items-center justify-center">
+                <span className="text-gray-500 text-sm">Project Image</span>
+              </div>
+              <h3 className="text-lg font-semibold text-dark-green mb-2">Project 5</h3>
+              <p className="text-dark-green/70 text-sm">
+                Description for project 5
+              </p>
+            </div>
+
+            {/* Project 6 */}
+            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
+              <div className="h-40 bg-gray-200 rounded-lg mb-4 flex items-center justify-center">
+                <span className="text-gray-500 text-sm">Project Image</span>
+              </div>
+              <h3 className="text-lg font-semibold text-dark-green mb-2">Project 6</h3>
+              <p className="text-dark-green/70 text-sm">
+                Description for project 6
+              </p>
+            </div>
+
+            {/* Project 7 */}
+            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
+              <div className="h-40 bg-gray-200 rounded-lg mb-4 flex items-center justify-center">
+                <span className="text-gray-500 text-sm">Project Image</span>
+              </div>
+              <h3 className="text-lg font-semibold text-dark-green mb-2">Project 7</h3>
+              <p className="text-dark-green/70 text-sm">
+                Description for project 7
+              </p>
+            </div>
+
+            {/* Project 8 */}
+            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
+              <div className="h-40 bg-gray-200 rounded-lg mb-4 flex items-center justify-center">
+                <span className="text-gray-500 text-sm">Project Image</span>
+              </div>
+              <h3 className="text-lg font-semibold text-dark-green mb-2">Project 8</h3>
+              <p className="text-dark-green/70 text-sm">
+                Description for project 8
+              </p>
+            </div>
+
+            {/* Project 9 */}
+            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
+              <div className="h-40 bg-gray-200 rounded-lg mb-4 flex items-center justify-center">
+                <span className="text-gray-500 text-sm">Project Image</span>
+              </div>
+              <h3 className="text-lg font-semibold text-dark-green mb-2">Project 9</h3>
+              <p className="text-dark-green/70 text-sm">
+                Description for project 9
+              </p>
             </div>
           </div>
         </div>
