@@ -128,33 +128,6 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Education Entry 2 */}
-            <div className="flex gap-8">
-              <div className="w-48 flex-shrink-0">
-                <div className="text-dark-green font-medium mb-1">2011-2014</div>
-                <div className="text-dark-green font-medium mb-1">Degree</div>
-                <div className="text-dark-green font-medium">University Name</div>
-              </div>
-              <div className="flex-1">
-                <p className="text-dark-green leading-relaxed">
-                  Briefly describe your degree and any other highlights about your studies you want to share. Be sure to include relevant skills you gained, accomplishments you achieved or milestones you reached during your education.
-                </p>
-              </div>
-            </div>
-
-            {/* Education Entry 3 */}
-            <div className="flex gap-8">
-              <div className="w-48 flex-shrink-0">
-                <div className="text-dark-green font-medium mb-1">2007-2010</div>
-                <div className="text-dark-green font-medium mb-1">Degree</div>
-                <div className="text-dark-green font-medium">University Name</div>
-              </div>
-              <div className="flex-1">
-                <p className="text-dark-green leading-relaxed">
-                  Briefly describe your degree and any other highlights about your studies you want to share. Be sure to include relevant skills you gained, accomplishments you achieved or milestones you reached during your education.
-                </p>
-              </div>
-            </div>
           </div>
         </section>
       </div>
@@ -166,101 +139,164 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
             {/* Project 1 */}
-            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-10 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
-              <div className="h-48 bg-gray-200 rounded-lg mb-6 flex items-center justify-center">
-                <span className="text-gray-500 text-sm">Project Image</span>
+            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
+              <div className="aspect-square mb-4 rounded-lg overflow-hidden">
+                <Image
+                  src="/logos/mirza.jpg"
+                  alt="Project Image"
+                  width={300}
+                  height={300}
+                  className="w-full h-full object-cover"
+                  unoptimized
+                />
               </div>
-              <h3 className="text-lg font-semibold text-dark-green mb-2">Power Bank Inverter</h3>
-              <p className="text-dark-green/70 text-sm">
-                A custom power bank inverter project showcasing mechanical design and electronics integration.
+              <h3 className="text-lg font-semibold text-dark-green mb-2 line-clamp-1 text-center">Power Bank Inverter</h3>
+              <p className="text-dark-green/70 text-sm line-clamp-2 text-center">
+                mirzamughal mirzamughal mirzamughal mirzamughal mirzamughal
               </p>
             </div>
 
             {/* Project 2 */}
-            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-10 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
-              <div className="h-48 bg-gray-200 rounded-lg mb-6 flex items-center justify-center">
-                <span className="text-gray-500 text-sm">Project Image</span>
+            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
+              <div className="aspect-square mb-4 rounded-lg overflow-hidden">
+                <Image
+                  src="/logos/mirza.jpg"
+                  alt="Project Image"
+                  width={300}
+                  height={300}
+                  className="w-full h-full object-cover"
+                  unoptimized
+                />
               </div>
-              <h3 className="text-lg font-semibold text-dark-green mb-2">Project 2</h3>
-              <p className="text-dark-green/70 text-sm">
-                Description for project 2
+              <h3 className="text-lg font-semibold text-dark-green mb-2 line-clamp-1 text-center">Project 2</h3>
+              <p className="text-dark-green/70 text-sm line-clamp-2 text-center">
+                mirzamughal mirzamughal mirzamughal mirzamughal mirzamughal
               </p>
             </div>
 
             {/* Project 3 */}
-            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-10 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
-              <div className="h-48 bg-gray-200 rounded-lg mb-6 flex items-center justify-center">
-                <span className="text-gray-500 text-sm">Project Image</span>
+            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
+              <div className="aspect-square mb-4 rounded-lg overflow-hidden">
+                <Image
+                  src="/logos/mirza.jpg"
+                  alt="Project Image"
+                  width={300}
+                  height={300}
+                  className="w-full h-full object-cover"
+                  unoptimized
+                />
               </div>
-              <h3 className="text-lg font-semibold text-dark-green mb-2">Project 3</h3>
-              <p className="text-dark-green/70 text-sm">
-                Description for project 3
+              <h3 className="text-lg font-semibold text-dark-green mb-2 line-clamp-1 text-center">Project 3</h3>
+              <p className="text-dark-green/70 text-sm line-clamp-2 text-center">
+                mirzamughal mirzamughal mirzamughal mirzamughal mirzamughal
               </p>
             </div>
 
             {/* Project 4 */}
-            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-10 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
-              <div className="h-48 bg-gray-200 rounded-lg mb-6 flex items-center justify-center">
-                <span className="text-gray-500 text-sm">Project Image</span>
+            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
+              <div className="aspect-square mb-4 rounded-lg overflow-hidden">
+                <Image
+                  src="/logos/mirza.jpg"
+                  alt="Project Image"
+                  width={300}
+                  height={300}
+                  className="w-full h-full object-cover"
+                  unoptimized
+                />
               </div>
-              <h3 className="text-lg font-semibold text-dark-green mb-2">Project 4</h3>
-              <p className="text-dark-green/70 text-sm">
-                Description for project 4
+              <h3 className="text-lg font-semibold text-dark-green mb-2 line-clamp-1 text-center">Project 4</h3>
+              <p className="text-dark-green/70 text-sm line-clamp-2 text-center">
+                mirzamughal mirzamughal mirzamughal mirzamughal mirzamughal
               </p>
             </div>
 
             {/* Project 5 */}
-            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-10 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
-              <div className="h-48 bg-gray-200 rounded-lg mb-6 flex items-center justify-center">
-                <span className="text-gray-500 text-sm">Project Image</span>
+            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
+              <div className="aspect-square mb-4 rounded-lg overflow-hidden">
+                <Image
+                  src="/logos/mirza.jpg"
+                  alt="Project Image"
+                  width={300}
+                  height={300}
+                  className="w-full h-full object-cover"
+                  unoptimized
+                />
               </div>
-              <h3 className="text-lg font-semibold text-dark-green mb-2">Project 5</h3>
-              <p className="text-dark-green/70 text-sm">
-                Description for project 5
+              <h3 className="text-lg font-semibold text-dark-green mb-2 line-clamp-1 text-center">Project 5</h3>
+              <p className="text-dark-green/70 text-sm line-clamp-2 text-center">
+                mirzamughal mirzamughal mirzamughal mirzamughal mirzamughal
               </p>
             </div>
 
             {/* Project 6 */}
-            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-10 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
-              <div className="h-48 bg-gray-200 rounded-lg mb-6 flex items-center justify-center">
-                <span className="text-gray-500 text-sm">Project Image</span>
+            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
+              <div className="aspect-square mb-4 rounded-lg overflow-hidden">
+                <Image
+                  src="/logos/mirza.jpg"
+                  alt="Project Image"
+                  width={300}
+                  height={300}
+                  className="w-full h-full object-cover"
+                  unoptimized
+                />
               </div>
-              <h3 className="text-lg font-semibold text-dark-green mb-2">Project 6</h3>
-              <p className="text-dark-green/70 text-sm">
-                Description for project 6
+              <h3 className="text-lg font-semibold text-dark-green mb-2 line-clamp-1 text-center">Project 6</h3>
+              <p className="text-dark-green/70 text-sm line-clamp-2 text-center">
+                mirzamughal mirzamughal mirzamughal mirzamughal mirzamughal
               </p>
             </div>
 
             {/* Project 7 */}
-            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-10 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
-              <div className="h-48 bg-gray-200 rounded-lg mb-6 flex items-center justify-center">
-                <span className="text-gray-500 text-sm">Project Image</span>
+            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
+              <div className="aspect-square mb-4 rounded-lg overflow-hidden">
+                <Image
+                  src="/logos/mirza.jpg"
+                  alt="Project Image"
+                  width={300}
+                  height={300}
+                  className="w-full h-full object-cover"
+                  unoptimized
+                />
               </div>
-              <h3 className="text-lg font-semibold text-dark-green mb-2">Project 7</h3>
-              <p className="text-dark-green/70 text-sm">
-                Description for project 7
+              <h3 className="text-lg font-semibold text-dark-green mb-2 line-clamp-1 text-center">Project 7</h3>
+              <p className="text-dark-green/70 text-sm line-clamp-2 text-center">
+                mirzamughal mirzamughal mirzamughal mirzamughal mirzamughal
               </p>
             </div>
 
             {/* Project 8 */}
-            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-10 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
-              <div className="h-48 bg-gray-200 rounded-lg mb-6 flex items-center justify-center">
-                <span className="text-gray-500 text-sm">Project Image</span>
+            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
+              <div className="aspect-square mb-4 rounded-lg overflow-hidden">
+                <Image
+                  src="/logos/mirza.jpg"
+                  alt="Project Image"
+                  width={300}
+                  height={300}
+                  className="w-full h-full object-cover"
+                  unoptimized
+                />
               </div>
-              <h3 className="text-lg font-semibold text-dark-green mb-2">Project 8</h3>
-              <p className="text-dark-green/70 text-sm">
-                Description for project 8
+              <h3 className="text-lg font-semibold text-dark-green mb-2 line-clamp-1 text-center">Project 8</h3>
+              <p className="text-dark-green/70 text-sm line-clamp-2 text-center">
+                mirzamughal mirzamughal mirzamughal mirzamughal mirzamughal
               </p>
             </div>
 
             {/* Project 9 */}
-            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-10 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
-              <div className="h-48 bg-gray-200 rounded-lg mb-6 flex items-center justify-center">
-                <span className="text-gray-500 text-sm">Project Image</span>
+            <div className="bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-lg border border-white/20 hover:bg-white/90 transition-all duration-300">
+              <div className="aspect-square mb-4 rounded-lg overflow-hidden">
+                <Image
+                  src="/logos/mirza.jpg"
+                  alt="Project Image"
+                  width={300}
+                  height={300}
+                  className="w-full h-full object-cover"
+                  unoptimized
+                />
               </div>
-              <h3 className="text-lg font-semibold text-dark-green mb-2">Project 9</h3>
-              <p className="text-dark-green/70 text-sm">
-                Description for project 9
+              <h3 className="text-lg font-semibold text-dark-green mb-2 line-clamp-1 text-center">Project 9</h3>
+              <p className="text-dark-green/70 text-sm line-clamp-2 text-center">
+                mirzamughal mirzamughal mirzamughal mirzamughal mirzamughal
               </p>
             </div>
           </div>
